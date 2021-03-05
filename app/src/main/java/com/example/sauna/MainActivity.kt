@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
                     // we have to subscribe again because of the reconnection
                     subscribeToTopic()
                 } else {
+                    // Eror log!
                     Log.d("MYERROR", "connected to MQTT")
                 }
             }
